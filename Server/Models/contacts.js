@@ -9,7 +9,6 @@ const ContactsSchema = new Schema({
     name: String,
     number: String,
     email: String,
-   
 }, {
     collection: "contacts"
 });

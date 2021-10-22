@@ -30,7 +30,7 @@ function DisplayContactPage(req, res, next) {
 }
 exports.DisplayContactPage = DisplayContactPage;
 function DisplayContactsListPage(req, res, next) {
-    // db.contacts.find()
+    // db.Contacts.find()
     contacts_1.default.find(function (err, contactsCollection) {
         if (err) {
             console.error(err);
@@ -102,4 +102,6 @@ function ProcessLogoutPage(req, res, next) {
     res.redirect('/login');
 }
 exports.ProcessLogoutPage = ProcessLogoutPage;
+
+
 //# sourceMappingURL=index.js.map

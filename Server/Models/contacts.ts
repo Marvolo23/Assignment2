@@ -9,7 +9,7 @@ const ContactsSchema = new Schema
    
 },
 {
-    collection: "contacts"
+    collection: "Contacts"
 });
 
 const Model = mongoose.model("Contacts", ContactsSchema);

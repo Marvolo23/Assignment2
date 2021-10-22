@@ -136,3 +136,4 @@ export function ProcessLogoutPage(req: Request, res: Response, next: NextFunctio
 
   res.redirect('/login');
 }
+

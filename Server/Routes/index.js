@@ -32,5 +32,7 @@ router.get('/register', index_1.DisplayRegisterPage);
 router.post('/register', index_1.ProcessRegisterPage);
 /* GET logout page */
 router.get('/logout', index_1.ProcessLogoutPage);
+
+
 //module.exports = router;
 //# sourceMappingURL=index.js.map
