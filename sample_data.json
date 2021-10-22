@@ -1,0 +1,8 @@
+{
+    "contacts":
+    [
+        {"name": "Frank Jones", "number": "1-519-456-8965", "email": "Frankjones@gmail.com"},
+        {"name": "Sue Smith", "number": "1-452-896-5632", "email": "SueSmith@gmail.com"},
+        {"name": "John Black", "number": "1-452-365-8974", "email": "JohnBlack@gmail,com"}
+    ]
+}

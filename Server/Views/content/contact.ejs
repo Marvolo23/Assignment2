@@ -1,0 +1,87 @@
+<div class="container">
+        <h1>Welcome to the <strong><%= title %></strong> page</h1>
+</div>
+<div class="card mb-3" style="max-width: 275px;">
+  <div class="row g-0">
+      <div class="card-body">
+        <h5 class="card-title">Nelson Garcia</h5>
+        <p class="card-text">Email: nelsongarcia62@gmail.com
+        Phone: 519-276-8289
+        </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container2">
+  <form method="POST" action="mailto:nelsion@hotmail.com">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+      <option value="usa">USA</option>
+      <option value="portugal">Portugal</option>
+      <option value="spain">Spain</option>
+      <option value="england">England</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Send Email">
+  </form>
+</div>
+
+<style>
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  background-color: rgba(255, 255, 255, 0.425);
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #154360;
+  border-radius: 8px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #34495E;
+  color: rgba(255, 255, 255, 0.425);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+input[type=submit]:hover {
+  background-color: #5D6D7E;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 60px;
+  background-color: #85c1e962;
+  padding: 50px;
+}
+
+body {
+  background-image: url("Assets/images/contactUs.jpg");
+  background-color: #cccccc67;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ }
+ .card{
+   text-align: left;
+   background-color: #85c1e962;
+   border-radius: 30px;
+
+ }
+</style>
